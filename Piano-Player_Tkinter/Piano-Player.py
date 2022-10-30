@@ -6,46 +6,7 @@ import sys
 pygame.init()
 
 root = Tk()
-root.title("PIANO-Player")
-root.geometry("850x450")
-"C:\Users\aansi\Desktop\Piano_Tkinter_Python\Z_Music_Notes\Music_Notes\A.wav"
-################################################### FUNCTIONS #######################################################
-def val_btnup1():
-    val.set("C#")
-    sound = pygame.mixer.Sound("C:\Users\aansi\Desktop\Piano_Tkinter_Python\Z_Music_Notes\Music_Notes\C_s.wav")
-    sound.play()
-    return
-
-def val_btnup2():
-    val.set("D#")
-    sound = pygame.mixer.Sound("C:\Users\aansi\Desktop\Piano_Tkinter_Python\Z_Music_Notes\Music_Notes\D_s.wav")
-    sound.play()
-    return
-
-def val_btnup3():
-    val.set("F#")
-    sound = pygame.mixer.Sound("C:\Users\aansi\Desktop\Piano_Tkinter_Python\Z_Music_Notes\Music_Notes\F_s.wav")
-    sound.play()
-    return
-
-def val_btnup4():
-    val.set("G#")
-    sound = pygame.mixer.Sound("C:\Users\aansi\Desktop\Piano_Tkinter_Python\Z_Music_Notes\Music_Notes\G_s.wav")
-    sound.play()
-    return
-
-def val_btnup5():
-    val.set("Bb")
-    sound = pygame.mixer.Sound("C:\Users\aansi\Desktop\Piano_Tkinter_Python\Z_Music_Notes\Music_Notes\Bb.wav")
-    sound.play()
-    return
-
-def val_btnup6():
-    val.set("C#1")
-    sound = pygame.mixer.Sound("C:\Users\aansi\Desktop\Piano_Tkinter_Python\Z_Music_Notes\Music_Notes\C_s1.wav")
-    sound.play()
-    return
-
+root.ti
 def val_btnup7():
     val.set("D#1")
     sound = pygame.mixer.Sound("C:\Users\aansi\Desktop\Piano_Tkinter_Python\Z_Music_Notes\Music_Notes\D_s1.wav")
