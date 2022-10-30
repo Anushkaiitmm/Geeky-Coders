@@ -8,20 +8,6 @@
 
 .loader{
  
-    position: fixed;
-    z-index: 999999999 !important;
-    background: #3199da;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-.disappear{
-    animation: vanish 2s forwards;
-}
 @keyframes vanish{
     100%{
        opacity: 0;
@@ -117,19 +103,7 @@ html{
     height: 50px;
     border: none; 
 }
-.navbar{
-    font-family: 'Special Elite', cursive;
-}
-.navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.55);
-    border: none;}
-
- .navbar-collapse{
-    text-align: center;
- }   
- .navbar .btn a{
-     color: #fff;
- }
+.na
  .rang{
      color: #fff;
  }
