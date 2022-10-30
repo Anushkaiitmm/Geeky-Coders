@@ -36,18 +36,6 @@
   background: #fff;
   border-radius: 50%;
 }
-#hour,#minute,#second {
-  position: absolute;
-  bottom: 50%;
-  left: 50%;
-  height: 50%;
-  width: 2vmin;
-  background: #fff;
-  transform: rotateZ(0deg) translatex(-50%);
-  transform-origin: 50% 100%;
-  border-radius:50px;
-  transition: 0ms;
-}
 #hour::after,#minute::after,#second::after {
 #second {
   height: 45%;
