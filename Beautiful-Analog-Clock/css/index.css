@@ -49,29 +49,9 @@
   transition: 0ms;
 }
 #hour::after,#minute::after,#second::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 20%;
-  background:#000;
-  border-radius: 20px;
-}
-#hour {
-  height: 30%;
-  animation-delay: 1s;
-}
-#minute {
-  height: 40%;
-}
 #second {
   height: 45%;
 }
-
-
-
-
 /*Digital Clock*/
 .digital{
   color:#0fb;
